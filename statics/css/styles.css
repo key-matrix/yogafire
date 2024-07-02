@@ -1,3 +1,4 @@
+/* 幅768PX以上 */
 /* Reset CSS */
 * {
     margin: 0;
@@ -19,6 +20,7 @@ body {
 }
 
 header {
+   background: url(../images/yogaTop.png) center / cover; 
     background-color: #333;
     color: #fff;
     padding: 10px 0;
@@ -88,13 +90,15 @@ footer p {
     font-size: 0.8rem;
 }
 
-/* Responsive Design */
+/* Responsive Design  メディアクエリによる指定*/
+/* 幅768PX以下 */
 @media (max-width: 768px) {
     .container {
         width: 90%;
     }
 
     header {
+        background: url(../images/yogaTop.png) center / cover; 
         padding: 5px 0;
     }
 

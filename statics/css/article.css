@@ -1,0 +1,62 @@
+/* Article Page Styles */
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article p {
+    color: #555;
+    line-height: 1.8;
+}
+
+article a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
