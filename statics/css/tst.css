@@ -3,16 +3,28 @@
 /*========= レイアウトのためのCSS ===============*/
 
 #wrapper {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
+    position: relative;
+    /*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+    z-index: 1;
+    /*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+    width: 100%;
+    height: 100%;
 }
 
 a {
     color: #fff;
 }
+
+.header {
+    vertical-align: top;
+}
+
+
 
 /*========= particle js を描画するエリア設定 ===============*/
 
@@ -31,13 +43,4 @@ body {
     height: 100%;
     background-color: #000;
     /*背景色*/
-}
-
-#wrapper {
-    position: relative;
-    /*描画を#particles-jsよりも上にするためposition:relative;を指定*/
-    z-index: 1;
-    /*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
-    width: 100%;
-    height: 100%;
 }
