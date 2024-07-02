@@ -3,45 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お問い合わせ - 素敵なブログ</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>YOGAFIREブログ</title>
+       <!--==============CSS===============-->
+     <link rel="stylesheet" type="text/css"
+     href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-7/css/reset.css">
+ <link rel="stylesheet" type="text/css"
+     href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-7/css/5-7.css">
+ <link rel="stylesheet" href="../statics/css/styles.css">
+
+ <link rel="stylesheet" href="../statics/css/category.css">
+    <!--==============CSS===============-->
 </head>
 <body>
+
+    <div id="particles-js"></div>
     <header>
         <div class="container">
-            <h1>素敵なブログ</h1>
+            <h1>YOGAFIREブログ</h1>
             <nav>
                 <ul>
                     <!-- ナビゲーション:ユーザーがサイト内を簡単に移動できるように -->
                     <li><a href="../index.html">ホーム</a></li>
-                    <li><a href="./html/category.html">カテゴリー</a></li>
-                    <li><a href="./html/contact.html">お問い合わせ</a></li>
+                    <li><a href="category.html">カテゴリー</a></li>
+                    <li><a href="#">お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div >
 
-    <main>
+    <main id="wrapper">
         <div class="container">
-            <h2>お問い合わせフォーム</h2>
+            <h3>お問い合わせフォーム</h3>
             <form action="#" method="POST">
                 <label for="name">お名前:</label><br>
+                <!-- 入力　NAME -->
                 <input type="text" id="name" name="name" required><br><br>
 
                 <label for="email">メールアドレス:</label><br>
+                <!-- 入力　email -->
                 <input type="email" id="email" name="email" required><br><br>
 
                 <label for="message">お問い合わせ内容:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                 <!-- 入力　message -->
+                <textarea id="message" name="message" rows="3" required></textarea><br><br>
 
-                <button type="submit">送信</button>
+                <button id="subBtn" type="submit">送信</button>
             </form>
         </div>
     </main>
-
-    <footer>
+  </div>
+    <footer id="footer-fixed">
         <div class="container">
-            <p>&copy; 2024 素敵なブログ. All rights reserved.</p>
+            <p>&copy; 2024 YOGAFIREブログ. All rights reserved.</p>
         </div>
     </footer>
 

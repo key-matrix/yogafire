@@ -1,0 +1,19 @@
+input ,textarea{
+    border-radius: 0.67em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    color: black;
+
+}
+button{
+    margin-bottom: 10%;
+    border: 1px solid whitesmoke;
+    border-radius: 5px; /* 角丸をつける */
+    margin: 5px; /* ボタン同士の余白 */
+    /* background-color: #96b97d; ボタンの背景色 */
+    color: gray; /* ボタンの文字色 */
+    text-align: center; /* ボタンのテキストを中央揃えにする */
+    text-decoration: none; /* テキストに下線をつけない */
+    /* font-size: 14px; テキストのフォントサイズ */
+    cursor: pointer; /* マウスポインタを変更する */
+}
