@@ -1,3 +1,5 @@
+// ホタル挙動Local制御　参考URL : https://coco-factory.jp/ugokuweb/move02/5-7/
+
 particlesJS("particles-js", {
     "particles": {
         "number": {
